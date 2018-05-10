@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.com.dawn</groupId>
-    <artifactId>service-hi</artifactId>
+    <artifactId>service-miya</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>service-hi</name>
-    <description>Demo project for Service Producer</description>
+    <name>service-miya</name>
+    <description>Demo project for Miya Service</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

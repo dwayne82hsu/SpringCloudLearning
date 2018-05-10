@@ -3,12 +3,16 @@ spring:
     config:
       server:
         git:
-          password: your password
+          password:
           searchPaths: respo
-          uri: https://github.com/forezp/SpringcloudConfig/
+          uri: https://github.com/dwayne82hsu/SpringcloudConfig
           username:
       label: master
   application:
     name: config-server
 server:
   port: 8888
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
